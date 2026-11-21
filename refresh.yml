@@ -1,0 +1,26 @@
+name: Refresh China dashboard
+on:
+  schedule:
+    - cron: "30 13 * * *"      # every day 13:30 UTC (after the Fed H.10 and most Asian data releases)
+  workflow_dispatch: {}        # lets you press "Run workflow" to demonstrate a refresh
+permissions:
+  contents: write
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: { python-version: "3.12" }
+      - name: Fetch data
+        run: python fetch_data.py
+      - name: Verify (report is written even if a check fails)
+        run: python verify.py || echo "::warning::verification flagged an issue, see VERIFICATION.md"
+      - name: Build dashboard
+        run: python build_dashboard.py
+      - name: Commit refreshed data and dashboard
+        run: |
+          git config user.name "dashboard-bot"; git config user.email "bot@users.noreply.github.com"
+          git add data.json refresh_log.csv VERIFICATION.md index.html
+          git commit -m "Refresh data $(date -u +%F)" || echo "nothing to commit"
+          git push
