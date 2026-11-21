@@ -1,7 +1,7 @@
 {
- "last_refresh_utc": "2026-11-21T20:49:14+00:00",
- "mode": "offline-seed",
- "series_ok": 10,
+ "last_refresh_utc": "2026-11-21T21:04:52+00:00",
+ "mode": "live",
+ "series_ok": 4,
  "series_total": 10,
  "series": {
   "usdcny_m": {
@@ -130,9 +130,10 @@
     6.7084,
     6.6844
    ],
-   "status": "ok",
+   "status": "stale",
    "fetched_utc": "2026-11-21T20:49:14+00:00",
-   "latest_obs_date": "2026-10-01"
+   "latest_obs_date": "2026-10-01",
+   "error": "The read operation timed out"
   },
   "usdcny_d": {
    "title": "USD/CNY exchange rate (daily)",
@@ -246,9 +247,10 @@
     6.6704,
     6.671
    ],
-   "status": "ok",
+   "status": "stale",
    "fetched_utc": "2026-11-21T20:49:14+00:00",
-   "latest_obs_date": "2026-11-13"
+   "latest_obs_date": "2026-11-13",
+   "error": "The read operation timed out"
   },
   "reer": {
    "title": "Real broad effective exchange rate, China",
@@ -257,6 +259,16 @@
    "source": "Bank for International Settlements, WS_EER (M.R.B.CN)",
    "url": "https://stats.bis.org/api/v2/data/dataflow/BIS/WS_EER/1.0/M.R.B.CN?startPeriod=2023-01&format=csv",
    "dates": [
+    "2023-01",
+    "2023-02",
+    "2023-03",
+    "2023-04",
+    "2023-05",
+    "2023-06",
+    "2023-07",
+    "2023-08",
+    "2023-09",
+    "2023-10",
     "2023-11",
     "2023-12",
     "2024-01",
@@ -295,6 +307,16 @@
     "2026-10"
    ],
    "values": [
+    98.78,
+    98.77,
+    97.65,
+    95.92,
+    94.71,
+    92.77,
+    91.96,
+    92.53,
+    93.31,
+    93.57,
     92.58,
     92.73,
     92.32,
@@ -333,7 +355,7 @@
     92.92
    ],
    "status": "ok",
-   "fetched_utc": "2026-11-21T20:49:14+00:00",
+   "fetched_utc": "2026-11-21T21:04:52+00:00",
    "latest_obs_date": "2026-10"
   },
   "cpi_cn_idx": {
@@ -343,6 +365,9 @@
    "source": "BIS WS_LONG_CPI (M.CN.628), from NBS",
    "url": "https://stats.bis.org/api/v2/data/dataflow/BIS/WS_LONG_CPI/1.0/M.CN.628?startPeriod=2024-01&format=csv",
    "dates": [
+    "2024-01",
+    "2024-02",
+    "2024-03",
     "2024-04",
     "2024-05",
     "2024-06",
@@ -375,6 +400,9 @@
     "2026-09"
    ],
    "values": [
+    132.40212,
+    133.767597,
+    132.565651,
     132.565651,
     132.434826,
     132.140472,
@@ -407,7 +435,7 @@
     134.122126
    ],
    "status": "ok",
-   "fetched_utc": "2026-11-21T20:49:14+00:00",
+   "fetched_utc": "2026-11-21T21:04:52+00:00",
    "latest_obs_date": "2026-09"
   },
   "cpi_us_idx": {
@@ -480,9 +508,10 @@
     336.298,
     337.476
    ],
-   "status": "ok",
+   "status": "stale",
    "fetched_utc": "2026-11-21T20:49:14+00:00",
-   "latest_obs_date": "2026-10-01"
+   "latest_obs_date": "2026-10-01",
+   "error": "The read operation timed out"
   },
   "pol_cn": {
    "title": "China policy rate (1-year Loan Prime Rate)",
@@ -611,7 +640,7 @@
     3.0
    ],
    "status": "ok",
-   "fetched_utc": "2026-11-21T20:49:14+00:00",
+   "fetched_utc": "2026-11-21T21:04:52+00:00",
    "latest_obs_date": "2026-10"
   },
   "pol_us": {
@@ -711,11 +740,11 @@
     5.375,
     5.375,
     5.375,
+    5.375,
+    5.375,
     4.875,
     4.875,
     4.625,
-    4.375,
-    4.375,
     4.375,
     4.375,
     4.375,
@@ -741,7 +770,7 @@
     3.875
    ],
    "status": "ok",
-   "fetched_utc": "2026-11-21T20:49:14+00:00",
+   "fetched_utc": "2026-11-21T21:04:52+00:00",
    "latest_obs_date": "2026-10"
   },
   "gdp": {
@@ -782,10 +811,11 @@
     4.0,
     4.0
    ],
-   "status": "ok",
+   "status": "stale",
    "fetched_utc": "2026-11-21T20:49:14+00:00",
    "proj_from": 2026,
-   "latest_obs_date": "2028"
+   "latest_obs_date": "2028",
+   "error": "HTTP Error 403: Forbidden"
   },
   "ca": {
    "title": "Current account balance",
@@ -825,10 +855,11 @@
     3.9,
     3.9
    ],
-   "status": "ok",
+   "status": "stale",
    "fetched_utc": "2026-11-21T20:49:14+00:00",
    "proj_from": 2026,
-   "latest_obs_date": "2028"
+   "latest_obs_date": "2028",
+   "error": "HTTP Error 403: Forbidden"
   },
   "reserves": {
    "title": "Total reserves excluding gold",
@@ -900,9 +931,10 @@
     3.50945816,
     3.48238562
    ],
-   "status": "ok",
+   "status": "stale",
    "fetched_utc": "2026-11-21T20:49:14+00:00",
-   "latest_obs_date": "2026-06-01"
+   "latest_obs_date": "2026-06-01",
+   "error": "The read operation timed out"
   },
   "cpi_cn_yoy": {
    "title": "China CPI inflation",
@@ -911,6 +943,9 @@
    "source": "BIS WS_LONG_CPI (M.CN.628), from NBS",
    "url": "https://stats.bis.org/api/v2/data/dataflow/BIS/WS_LONG_CPI/1.0/M.CN.628?startPeriod=2024-01&format=csv",
    "dates": [
+    "2025-01",
+    "2025-02",
+    "2025-03",
     "2025-04",
     "2025-05",
     "2025-06",
@@ -931,6 +966,9 @@
     "2026-09"
    ],
    "values": [
+    0.5,
+    -0.7,
+    -0.1,
     -0.1,
     -0.1,
     0.1,
@@ -997,7 +1035,7 @@
     3.35,
     3.72
    ],
-   "status": "ok",
+   "status": "stale",
    "latest_obs_date": "2026-09"
   }
  }

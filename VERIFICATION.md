@@ -1,21 +1,21 @@
 # Verification report
 
-Generated 2026-11-21 20:49 UTC; data refresh mode: offline-seed; last refresh: 2026-11-21T20:49:14+00:00
+Generated 2026-11-21 21:08 UTC; data refresh mode: live; last refresh: 2026-11-21T21:04:52+00:00
 
 ## 1. Automated checks (every series)
 
 | Series | Status | Obs | Latest obs | Age (days) | Latest value | In plausible range | Fresh enough |
 |---|---|---|---|---|---|---|---|
-| usdcny_d | ok | 51 | 2026-11-13 | 8 | 6.671 | yes | yes |
-| usdcny_m | ok | 58 | 2026-10-01 | 51 | 6.684 | yes | yes |
-| reer | ok | 36 | 2026-10 | 24 | 92.92 | yes | yes |
-| cpi_cn_yoy | ok | 18 | 2026-09 | 54 | 0.9 | yes | yes |
-| cpi_us_yoy | ok | 17 | 2026-09 | 54 | 3.72 | yes | yes |
+| usdcny_d | stale | 51 | 2026-11-13 | 8 | 6.671 | yes | yes |
+| usdcny_m | stale | 58 | 2026-10-01 | 51 | 6.684 | yes | yes |
+| reer | ok | 46 | 2026-10 | 24 | 92.92 | yes | yes |
+| cpi_cn_yoy | ok | 21 | 2026-09 | 54 | 0.9 | yes | yes |
+| cpi_us_yoy | stale | 17 | 2026-09 | 54 | 3.72 | yes | yes |
 | pol_cn | ok | 58 | 2026-10 | 24 | 3 | yes | yes |
 | pol_us | ok | 58 | 2026-10 | 24 | 3.875 | yes | yes |
-| gdp | ok | 14 | 2028 | -768 | 4 | yes | yes |
-| ca | ok | 14 | 2028 | -768 | 3.9 | yes | yes |
-| reserves | ok | 30 | 2026-06-01 | 173 | 3.482 | yes | yes |
+| gdp | stale | 14 | 2028 | -768 | 4 | yes | yes |
+| ca | stale | 14 | 2028 | -768 | 3.9 | yes | yes |
+| reserves | stale | 30 | 2026-06-01 | 173 | 3.482 | yes | yes |
 
 ## 2. Internal consistency
 
@@ -39,4 +39,4 @@ Generated 2026-11-21 20:49 UTC; data refresh mode: offline-seed; last refresh: 2
 
 Series without an independent second source: reer (taken directly from the primary publisher's API; covered by sanity checks only). `usdcny_m` is checked through the daily series above.
 
-**Result: ALL CHECKS PASSED**
+**Result: 6 CHECK(S) FAILED**
