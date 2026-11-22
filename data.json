@@ -1,5 +1,5 @@
 {
- "last_refresh_utc": "2026-11-21T21:15:58+00:00",
+ "last_refresh_utc": "2026-11-22T14:19:25+00:00",
  "mode": "live",
  "series_ok": 4,
  "series_total": 10,
@@ -355,7 +355,7 @@
     92.92
    ],
    "status": "ok",
-   "fetched_utc": "2026-11-21T21:15:58+00:00",
+   "fetched_utc": "2026-11-22T14:19:25+00:00",
    "latest_obs_date": "2026-10"
   },
   "cpi_cn_idx": {
@@ -435,7 +435,7 @@
     134.122126
    ],
    "status": "ok",
-   "fetched_utc": "2026-11-21T21:15:58+00:00",
+   "fetched_utc": "2026-11-22T14:19:25+00:00",
    "latest_obs_date": "2026-09"
   },
   "cpi_us_idx": {
@@ -640,7 +640,7 @@
     3.0
    ],
    "status": "ok",
-   "fetched_utc": "2026-11-21T21:15:58+00:00",
+   "fetched_utc": "2026-11-22T14:19:25+00:00",
    "latest_obs_date": "2026-10"
   },
   "pol_us": {
@@ -770,7 +770,7 @@
     3.875
    ],
    "status": "ok",
-   "fetched_utc": "2026-11-21T21:15:58+00:00",
+   "fetched_utc": "2026-11-22T14:19:25+00:00",
    "latest_obs_date": "2026-10"
   },
   "gdp": {
