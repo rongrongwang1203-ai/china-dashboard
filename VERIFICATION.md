@@ -1,21 +1,21 @@
 # Verification report
 
-Generated 2026-11-22 14:23 UTC; data refresh mode: live; last refresh: 2026-11-22T14:19:25+00:00
+Generated 2026-11-23 14:42 UTC; data refresh mode: live; last refresh: 2026-11-23T14:38:42+00:00
 
 ## 1. Automated checks (every series)
 
 | Series | Status | Obs | Latest obs | Age (days) | Latest value | In plausible range | Fresh enough |
 |---|---|---|---|---|---|---|---|
-| usdcny_d | stale | 51 | 2026-11-13 | 9 | 6.671 | yes | yes |
-| usdcny_m | stale | 58 | 2026-10-01 | 52 | 6.684 | yes | yes |
-| reer | ok | 46 | 2026-10 | 25 | 92.92 | yes | yes |
-| cpi_cn_yoy | ok | 21 | 2026-09 | 55 | 0.9 | yes | yes |
-| cpi_us_yoy | stale | 17 | 2026-09 | 55 | 3.72 | yes | yes |
-| pol_cn | ok | 58 | 2026-10 | 25 | 3 | yes | yes |
-| pol_us | ok | 58 | 2026-10 | 25 | 3.875 | yes | yes |
-| gdp | stale | 14 | 2028 | -767 | 4 | yes | yes |
-| ca | stale | 14 | 2028 | -767 | 3.9 | yes | yes |
-| reserves | stale | 30 | 2026-06-01 | 174 | 3.482 | yes | yes |
+| usdcny_d | stale | 51 | 2026-11-13 | 10 | 6.671 | yes | yes |
+| usdcny_m | stale | 58 | 2026-10-01 | 53 | 6.684 | yes | yes |
+| reer | ok | 46 | 2026-10 | 26 | 92.92 | yes | yes |
+| cpi_cn_yoy | ok | 21 | 2026-09 | 56 | 0.9 | yes | yes |
+| cpi_us_yoy | stale | 17 | 2026-09 | 56 | 3.72 | yes | yes |
+| pol_cn | ok | 58 | 2026-10 | 26 | 3 | yes | yes |
+| pol_us | ok | 58 | 2026-10 | 26 | 3.875 | yes | yes |
+| gdp | stale | 14 | 2028 | -766 | 4 | yes | yes |
+| ca | stale | 14 | 2028 | -766 | 3.9 | yes | yes |
+| reserves | stale | 30 | 2026-06-01 | 175 | 3.482 | yes | yes |
 
 ## 2. Internal consistency
 
